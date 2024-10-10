@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:elevation="10dp"
+    >
+
+    <CheckBox
+        android:id="@+id/task_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/task_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Task description"
+        android:textSize="18sp"
+        android:drawableEnd="@drawable/ic_trash"
+        android:drawableTint="@color/red"
+        android:drawablePadding="10dp"
+        android:textColor="@android:color/black" />
+
+
+
+</LinearLayout>
